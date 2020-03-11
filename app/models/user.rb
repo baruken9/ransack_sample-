@@ -1,5 +1,4 @@
 class User < ApplicationRecord
-  include ActiveModel::Model
   attr_accessor :search_name, :search_age
 
   def execute
